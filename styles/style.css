@@ -51,8 +51,8 @@
 .cover {
   position: relative;
   background-image: url("../images/cover.jpg");
-  background-size: cover;       
-  background-position: center;  
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   min-height: 600px;
   margin-top: 90px;
@@ -309,14 +309,4 @@
   margin-top: 29px;
   font-size: 18px;
   text-underline-offset: 4px;
-}
-
-.pixel-perfect-image {
-  position: absolute;
-  top: 0;
-  opacity: 0.5;
-  filter: sepia(0.6);
-  z-index: 3;
-  width: 1100px;
-  height: 3028px;
 }
