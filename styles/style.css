@@ -27,7 +27,6 @@
 
 .contacts {
   padding-left: 170px;
-  /*padding-bottom: 7px;*/
   font-size: 18px;
   text-underline-offset: 4px;
   display: grid;
@@ -37,7 +36,6 @@
 .contacts__links-list {
   display: grid;
   list-style-type: none;
-  /*padding-bottom: 1px;*/
   gap: 4px;
   padding-left: 21px;
 }
@@ -126,7 +124,6 @@
 }
 
 .bet-button {
-  /*border: none;*/
   padding: 11px 32px;/*13px сверху и снизу, 32px слева и справа*/
   margin-left: 80px;
   background: transparent;
