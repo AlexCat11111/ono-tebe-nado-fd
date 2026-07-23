@@ -14,7 +14,7 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">главная</li>
+          <li class="header__links-list-item_no-bullit"><a href="#" class="header__link_active">главная</a></li>
           <li><a href="#">посмотреть лоты</a></li>
           <li><a href="#">об аукционе</a></li>
         </ul>
@@ -22,13 +22,13 @@
       <a href="#" class="logo-black">
         <img src="./images/logo-black.svg" alt="Логотип аукциона">
       </a>
-      <div class="contacts">
-        <ul class="contacts__links-list">
+      <address class="address">
+        <ul class="address__links-list">
           <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
           <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
         </ul>
-        <address class="contacts__address">наб. Принсенграхт 263-</address><address class="contacts__address">265, Амстердам</address>
-      </div>
+        <p class="address__text">наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
     </header>
       
     
@@ -103,7 +103,7 @@
     <footer class="footer">
       <div class="footer__grid">
             
-        <address class="address">
+        <address class="address footer__address">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p>наб. Принсенграхт 263-265, Амстердам</p>
@@ -112,13 +112,13 @@
         <nav class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-list-item">
-              <a href="#" class="footer__menu-link">главная</a>
+              <a href="#" class="footer__menu-link footer__menu-link_active">главная</a>
             </li>
             <li class="footer__menu-list-item">
               <a href="#" class="footer__menu-link">посмотреть лоты</a>
             </li>
             <li class="footer__menu-list-item">
-              <a href="#" class="footer__menu-link footer__menu-link_active">об аукционе</a>
+              <a href="#" class="footer__menu-link">об аукционе</a>
             </li>
           </ul>
         </nav>
@@ -126,18 +126,24 @@
         <div class="footer__social">
           <ul class="footer__social-list">
             <li class="footer__social-list-item">
-              <a href="#" class="footer__social-link">
-                <span class="footer__social-icon">YouTube</span>
+              <a href="#" class="footer__social-link" target="_blank">
+                <span class="footer__social-icon">
+                    <img src="./images/yt.svg" alt="YouTube">
+                </span>
               </a>
             </li>
             <li class="footer__social-list-item">
-              <a href="#" class="footer__social-link">
-                <span class="footer__social-icon">VK</span>
+              <a href="#" class="footer__social-link" target="_blank">
+                <span class="footer__social-icon">
+                    <img src="./images/vk.svg" alt="VK">
+                </span>
               </a>
             </li>
             <li class="footer__social-list-item">
-              <a href="#" class="footer__social-link">
-                <span class="footer__social-icon">Pinterest</span>
+              <a href="#" class="footer__social-link" target="_blank">
+                <span class="footer__social-icon">
+                    <img src="./images/pinterest.svg" alt="Pinterest">
+                </span>
               </a>
             </li>
           </ul>

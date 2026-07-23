@@ -19,31 +19,37 @@
   list-style-type: none;
 }
 
+.header__link_active {
+  text-decoration: none;
+}
+
 .logo__black {
   width: 148px;
   height: 105px;
   top: 92px;
 }
 
-.contacts {
-  padding-left: 170px;
+.address {
   font-size: 18px;
   text-underline-offset: 4px;
-  display: grid;
-  gap: 3px;
+  font-style: normal;
 }
 
-.contacts__links-list {
+.address__links-list,
+.address__text {
+  padding-left: 190px;
+}
+
+.address__links-list {
   display: grid;
   list-style-type: none;
   gap: 4px;
-  padding-left: 21px;
+  padding-bottom: 4px;
 }
 
-.contacts__address {
-  font-style: normal;
-  padding-left: 22px;
-  padding-bottom: 3px;
+.address__text {
+  padding-bottom: 10px;
+  padding-left: 192px;
 }
 
 .cover {
@@ -52,9 +58,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 759px;
   margin-top: 90px;
-  height: 759px;
   color: #ffffff;
 }
 
@@ -159,7 +164,7 @@
 
 .lots__card-list-item {
   width: 357px;
-  height: 596px;
+  min-height: 596px;
   flex: 0 0 auto;
   padding-left: 24px;
 }
@@ -181,6 +186,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 48px 40px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card_type_film {
@@ -191,12 +200,6 @@
 }
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-}
-
-.card[class*="card_type_"] {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .card__title {
@@ -274,7 +277,7 @@
 }
 
 .footer {
-  padding: 120px 50px;
+  padding: 154px 50px;
 }
 
 .footer__grid {
@@ -284,17 +287,15 @@
   align-items: center;
 }
 
-.address {
-  font-size: 18px;
-  line-height: 1.4;
-  text-align: left;
-  margin-top: 60px;
-  font-style: normal;
-  text-underline-offset: 4px;
+.footer__address {
+  display: grid;
+  gap: 4px;
+  margin-top: 29px; 
 }
 
 .footer__menu {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .footer__menu-list {
@@ -306,4 +307,21 @@
   margin-top: 29px;
   font-size: 18px;
   text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  gap: 47px;
+  list-style-type: none;
+  padding-bottom: 18px;
+  padding-left: 10px;
+}
+
+.footer__social-icon {
+  display: flex;
 }
